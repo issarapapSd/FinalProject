@@ -65,7 +65,7 @@ const Get_Started = () => {
           Online Education
         </Typography>
 
-        <ColorButton className='buttonGS' href="Course" endIcon={<ArrowForwardIosIcon />} variant="contained">Get Start</ColorButton>
+        <ColorButton className='buttonGS' href="Login" endIcon={<ArrowForwardIosIcon />} variant="contained">Get Start</ColorButton>
 
       </Container>
     </React.Fragment>
