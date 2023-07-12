@@ -71,7 +71,7 @@ const VideoML = ({ setSelectedPage }: Props) => {
                     </div>
                   ) : (
                     <div>
-                      <h2>Video Watched</h2>
+                      <HText>Video Watched</HText>
                       <button
                         // type="submit"
                         onClick={handleResetVideo}
