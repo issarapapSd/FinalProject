@@ -43,7 +43,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
+            <span className="text-primary-500">JOIN</span>  NOW
           </HText>
           <p className="my-5">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
