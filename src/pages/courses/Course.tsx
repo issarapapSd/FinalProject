@@ -13,7 +13,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
-import ResponsiveAppBar from '../components/ResponsiveAppBar';
+import ResponsiveAppBar from '../../components/navbar/ResponsiveAppBar';
 import axios from 'axios';
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -102,14 +102,6 @@ const Course = () => {
         
         <Container maxWidth="xl">
             <ResponsiveAppBar />
-            {/* <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', textAlign: 'left' }}>         <Typography variant="h3" component="h2">
-                Hello, Is
-            </Typography>
-                <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end', placeItems: 'flex-end', textAlign: 'end', paddingLeft: '75%' }}>
-                    <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                </div>
-
-            </div> */}
             <div style={{ paddingTop: '5%' }}>
                 <button onClick={handleOnClick} value='All'>All</button>
                 {categories.map((category, index) => (

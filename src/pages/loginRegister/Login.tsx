@@ -24,7 +24,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
             <input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Password" />
             <button type="submit">Login</button>
 
-            <Link type="button" to='/Register' >Register</Link>
+            <Link type="button" to='/register' >Register</Link>
         </form>
     );
 };
