@@ -10,6 +10,7 @@ import VideoWeb from "./pages/videos/VideoWeb";
 import Navbar from "./components/navbar/Navbar";
 import { SelectedPage } from "@/shared/types";
 import Courses from "./pages/courses/Courses";
+import NotFound from "./pages/NotFound";
 
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
           element={<VideoProgramFun setSelectedPage={setSelectedPage}/>}
         />
         <Route path="/video-web-development" element={<VideoWeb setSelectedPage={setSelectedPage}/>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
     </div>
   );
