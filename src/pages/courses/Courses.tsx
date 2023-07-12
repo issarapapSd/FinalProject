@@ -345,8 +345,8 @@ const Courses = ({ setSelectedPage }: Props) => {
                   }}
                 >
                   <HText>
-                    MILLIONS OF HAPPY STUDEN{" "}
-                    <span className="text-primary-500">FIT</span>
+                    MILLIONS OF HAPPY {" "}
+                    <span className="text-primary-500">STUDENT</span>
                   </HText>
                 </motion.div>
               </div>
